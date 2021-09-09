@@ -1,0 +1,538 @@
+* {
+  box-sizing: border-box;
+}
+
+@media (min-width: 1024px) {
+
+.body-общоснова {
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f8f8f8;
+}
+
+.div-шапка {
+  display: none;
+}
+
+.div-меню {
+  background-color: rgba(243,243,243,.80);
+  width: 100%;
+  height: 55px;
+  margin-top: -70px;
+  position: fixed;
+  backdrop-filter: blur(35px);
+  border-bottom: 1px solid rgba(190,190,190,.40);
+}
+
+.ul-текстменю {
+  font: 15px Roboto light;
+  text-align: center;
+  min-width: 1024px;
+  margin-right: 45px;
+  margin-top: 17.5px;
+}
+
+.li-текстменю {
+  display: inline;
+  margin-right: 50px;
+  margin-left: 50px;
+  color: #232323;
+  padding: 0px;
+  text-align: center;
+}
+
+.div-картинкаменю {
+  position: absolute;
+  margin-top: -6px;
+  min-width: 110px;
+  margin-left: 20px;
+  border: 5px solid rgba(0,0,0,0);
+  border-radius: 9px;
+  float: left;
+}
+
+.div-общфон {
+  height: auto;
+  width: 100%;
+  background-color: #f8f8f8;
+  margin-left: auto;
+  margin-right: auto;
+  position: static;
+}
+
+.div-подвал {
+  height: 75px;
+  width: auto;
+  min-width: 1001.48px;
+  background-color: #f5f5f5;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: inset 0px 2px 2.5px 0px rgba(0,0,0,.040);
+  display: flex;
+}
+
+.div-блокновости {
+  height: auto;
+  width: 1000px;
+  background-color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  border: 0.75px solid #dadada;
+  border-radius: 10px;
+  box-shadow: 0px 15px 35px 1.95px rgba(0,0,0,.13) !important;
+}
+
+
+.h1-заголовокновости {
+  font-family: 'Roboto', sans-serif;
+  font: 60px Roboto;
+  font-weight: bold;
+  text-align: left;
+  color: #292929;
+  margin-top: -25px;
+  margin-bottom: -30px;
+  margin-left: -20px;
+  line-height: 74px;
+  padding: 80px;
+}
+
+.font-информацияоновости {
+  font: 14px Roboto medium;
+  color: #999999;
+  margin-left: 60px;
+}
+
+.hr-черточка {
+  background-color: #ececec;
+  height: 1px;
+  margin-top: 15px;
+  border: none;
+}
+
+.img-фото {
+  width: 875px;
+  border-radius: 10px;
+  margin-top: 45px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-фото:active {
+  width: 1060px;
+  border-radius: 10px;
+  margin-top: 45px;
+  display: block;
+  margin-left: -30px;
+  margin-right: auto;
+  box-shadow: 0px .3px 23px 12px rgba(0,0,0,.085);
+  border: 1.5px solid #cecece;
+  border-radius: 20px;
+}
+
+.hr-черточкамежду {
+  width: 430px;
+  background-color: #eeeeee;
+  height: 1.5px;
+  border: none;
+  margin-top: -50px;
+  margin-bottom: 70px;
+}
+
+.p-текстновости {
+  display: block;
+  font-family: 'Roboto', sans-serif;
+  font: 24px Roboto;
+  font-weight: 400;
+  text-align: left;
+  overflow: hidden;
+  color: #414141;
+  margin-top: -40px;
+  margin-bottom: -35px;
+  padding: 110px;
+  line-height: 44px;
+}
+
+.a-ссылкаменютекстановостей {
+  font-family: 'Roboto', sans-serif;
+  color: #575757;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.a-ссылкаменютекстановостей:hover {
+  font-family: 'Roboto', sans-serif;
+  color: #010101;
+  text-decoration: none;
+}
+.a-ссылкаменютекстановостей:active {
+  font-family: 'Roboto', sans-serif;
+  color: #808080;
+  text-decoration: none;
+}
+
+.a-ссылкаменютекстастатей {
+  font-family: 'Roboto', sans-serif;
+  color: #575757;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.a-ссылкаменютекстастатей:hover {
+  font-family: 'Roboto', sans-serif;
+  color: #010101;
+  text-decoration: none;
+}
+.a-ссылкаменютекстастатей:active {
+  font-family: 'Roboto', sans-serif;
+  color: #808080;
+  text-decoration: none;
+}
+
+.a-ссылкаменютекстаглавной {
+  font-family: 'Roboto', sans-serif;
+  color: #000000;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.a-ссылкаменютекстаглавной:hover {
+  font-family: 'Roboto', sans-serif;
+  color: #000000;
+  text-decoration: none;
+}
+.a-ссылкаменютекстаглавной:active {
+  font-family: 'Roboto', sans-serif;
+  color: #808080;
+  text-decoration: none;
+}
+
+.hamburger-menu {
+  display: none;
+}
+
+}
+
+
+
+/* ..................................................
+    MEDIA
+    Телефон 375-768
+.................................................. */
+
+
+@media (max-width: 1023px) {
+
+  .body-общоснова {
+    width: 100%;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fbfbfb;
+  }
+
+  .div-меню {
+    background-color: rgba(243,243,243, .975);
+    width: 100%;
+    height: 50px;
+    margin-top: -50px;
+    position: fixed;
+    backdrop-filter: blur(35px);
+    border-bottom: 1px solid rgba(190,190,190,.40);
+  }
+
+  .div-картинкаменю {
+    position: absolute;
+    margin-top: -3px;
+    min-width: 35.5px;
+    margin-left: -85.1px;
+    border: 1.6px solid rgba(0,0,0,0);
+    border-radius: 3px;
+    float: left;
+  }
+
+  #картинкаменю {
+    width: 74.3%;
+  }
+
+  .hamburger-menu {
+    display: block;
+    float: right;
+    margin-right: 22.5px;
+    margin-top: 4.2px;
+  }
+
+  /* скрываем чекбокс */
+  #menu__toggle {
+    opacity: 0;
+    float: right;
+  }
+  /* стилизуем кнопку */
+  .menu__btn {
+    width: 22px;
+    height: 0px;
+    margin-top: inherit;
+    float: right;
+    display: flex; /* используем flex для центрирования содержимого */
+    align-items: center;  /* центрируем содержимое кнопки */
+    position: fixed;
+    cursor: pointer;
+    z-index: 1;
+  }
+  /* добавляем "гамбургер" */
+  .menu__btn > span,
+  .menu__btn > span::before,
+  .menu__btn > span::after {
+    display: block;
+    float: right;
+    position: absolute;
+    width: 100%;
+    height: 1.2px;
+    background-color: #8c8c8c;
+  }
+  .menu__btn > span::before {
+    content: '';
+    float: right;
+    top: -8px;
+  }
+  .menu__btn > span::after {
+    content: '';
+    top: 8px;
+    float: right;
+  }
+
+  /* контейнер меню */
+  .menu__box {
+  display: block;
+  position: fixed;
+  visibility: hidden;
+  top: 49px;
+  left: 100%;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 50px 0;
+  list-style: none;
+  text-align: center;
+  background-color: rgba(243,243,243,.97);
+  backdrop-filter: blur(35px);
+  border-top: 1.2px solid rgba(190,190,190,.45);
+  border-bottom: 1.5px solid rgba(190,190,190,.90);
+  }
+
+  /* элементы меню */
+  .menu__item {
+  font-size: 26px;
+  display: block;
+  padding: 16px 24px;
+  color: #292929;
+  font-family: 'Roboto', bold;
+  text-decoration: none;
+  }
+  .menu__item:hover {
+  color: #272727;
+  height: auto;
+  background-color: rgba(225,225,225,.75);
+  border: 0.020px solid rgba(155,155,155,.15);
+  }
+
+  #menu__toggle:checked ~ .menu__btn > span {
+  transform: rotate(45deg);
+  }
+  #menu__toggle:checked ~ .menu__btn > span::before {
+  top: 0;
+  transform: rotate(0);
+  }
+  #menu__toggle:checked ~ .menu__btn > span::after {
+  top: 0;
+  transform: rotate(90deg);
+  }
+  #menu__toggle:checked ~ .menu__box {
+  visibility: visible;
+  left: 0;
+  }
+
+  .menu__btn > span,
+  .menu__btn > span::before,
+  .menu__btn > span::after {
+  transition-duration: .25s;
+  }
+  .menu__box {
+  transition-duration: .25s;
+  }
+  .menu__item {
+  transition-duration: .25s;
+  }
+
+
+  .div-общфон {
+    height: auto;
+    width: 100%;
+    background-color: #f8f8f8;
+    margin-left: auto;
+    margin-right: auto;
+    position: static;
+    margin-top: 50.4px;
+    box-sizing: border-box;
+  }
+
+  .div-шапка {
+    display: none;
+  }
+
+  .ul-текстменю {
+    font: 0px Roboto light;
+    text-align: center;
+    min-width: 403.1px;
+    margin-left: 43.6px;
+    margin-top: 16.1px;
+  }
+
+  .li-текстменю {
+    display: none;
+  }
+
+  .div-подвал {
+    height: 75px;
+    width: auto;
+    min-width: 100%;
+    background-color: #f5f5f5;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: inset 0px 2px 2.5px 0px rgba(0,0,0,.040);
+    display: flex;
+  }
+
+  .div-блокновости {
+    height: auto;
+    width: auto;
+    background-color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 25px;
+    border-top: .75px solid #dadada;
+    border-bottom: .75px solid #dadada;
+    border-left: 0px solid #dadada;
+    border-right: 0px solid #dadada;
+    border-radius: 0px;
+    box-shadow: 0px .25px .5px .25px rgba(0,0,0,.065) !important;
+  }
+
+  .h1-заголовокновости {
+    font-family: 'Roboto', sans-serif;
+    font: 35px Roboto;
+    font-weight: bold;
+    text-align: left;
+    color: #292929;
+    margin-top: -5px;
+    margin-bottom: -30px;
+    line-height: 46.2px;
+    padding: 30px;
+  }
+
+  .font-информацияоновости {
+    font: 12px Roboto;
+    color: #999999;
+    margin-left: 30px;
+  }
+
+  .hr-черточка {
+    background-color: #ececec;
+    height: 1px;
+    margin-top: 15px;
+    border: none;
+  }
+
+  .img-фото {
+    width: 93%;
+    border-radius: 10px;
+    margin-top: 35px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .img-фото:active {
+    width: 93%;
+    border-radius: 10px;
+    margin-top: 35px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hr-черточкамежду {
+    width: 65%;
+    background-color: #eeeeee;
+    height: 1.2px;
+    border: none;
+  }
+
+  .p-текстновости {
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font: 20px Roboto;
+    font-weight: 400;
+    text-align: left;
+    overflow: hidden;
+    color: #494949;
+    margin-top: 0px;
+    margin-bottom: -15px;
+    padding: 30px;
+    line-height: 36.4px;
+  }
+
+  .a-ссылкаменютекстановостей {
+    color: #373737;
+    text-decoration: none;
+    font-size: 15px;
+  }
+
+  .a-ссылкаменютекстановостей:hover {
+    color: #010101;
+    text-decoration: none;
+  }
+  .a-ссылкаменютекстановостей:active {
+    color: #808080;
+    text-decoration: none;
+  }
+
+  .a-ссылкаменютекстастатей {
+    color: #373737;
+    text-decoration: none;
+    font-size: 15px;
+  }
+
+  .a-ссылкаменютекстастатей:hover {
+    color: #010101;
+    text-decoration: none;
+  }
+  .a-ссылкаменютекстастатей:active {
+    color: #808080;
+    text-decoration: none;
+  }
+
+  .a-ссылкаменютекстаглавной {
+    color: #000000;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .a-ссылкаменютекстаглавной:hover {
+    color: #000000;
+    text-decoration: none;
+  }
+  .a-ссылкаменютекстаглавной:active {
+    color: #808080;
+    text-decoration: none;
+  }
+
+
+}
