@@ -1,0 +1,2075 @@
+* {
+  box-sizing: border-box;
+}
+
+@media (min-width: 1024px) {
+
+.body-общоснова {
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f8f8f8;
+}
+
+.div-меню {
+  background-color: rgba(8,8,8,.80);
+  width: 100%;
+  height: 55px;
+  margin-top: -115px;
+  position: fixed;
+  backdrop-filter: blur(35px);
+  border-bottom: 1px solid rgba(65,65,65,.40);
+}
+
+.ul-текстменю {
+  font-family: 'Roboto', sans-serif;
+  font: 15px Roboto light;
+  text-align: center;
+  min-width: 1024px;
+  margin-right: 45px;
+  margin-top: 17.5px;
+}
+
+.li-текстменю {
+  font-family: 'Roboto', sans-serif;
+  display: inline;
+  margin-right: 50px;
+  margin-left: 50px;
+  color: #232323;
+  padding: 0px;
+  text-align: center;
+}
+
+.div-картинкаменю {
+  position: absolute;
+  margin-top: -6px;
+  min-width: 110px;
+  margin-left: 20px;
+  border: 5px solid rgba(0,0,0,0);
+  border-radius: 9px;
+  float: left;
+}
+
+.div-общфон {
+  height: auto;
+  width: 1024px;
+  background-color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  position: static;
+  margin-top: 85px;
+}
+
+.div-блокиконтента13579 {
+  height: auto !important;
+  width: 500px !important;
+  background-color: #ffffff !important;
+  float: left !important;
+  margin-bottom: 45px !important;
+  border: .75px solid #dadada !important;
+  border-radius: 20px !important;
+  box-shadow: 0px 15px 35px 1.95px rgba(0,0,0,.13) !important;
+  transition: 0.3s linear !important;
+}
+
+.div-блокиконтента13579:hover {
+  height: auto !important;
+  width: 500px !important;
+  background-color: #ffffff !important;
+  float: left !important;
+  margin-bottom: 45px !important;
+  border: .75px solid #dadada !important;
+  border-radius: 20px !important;
+  box-shadow: 0px 15px 35px 1.95px rgba(0,0,0,.31) !important;
+}
+
+.div-блокиконтента246810 {
+  height: auto !important;
+  width: 500px !important;
+  background-color: #ffffff !important;
+  float: right !important;
+  margin-bottom: 45px !important;
+  border: .75px solid #dadada !important;
+  border-radius: 20px !important;
+  box-shadow: 0px 15px 35px 1.95px rgba(0,0,0,.13) !important;
+  transition: 0.3s linear !important;
+}
+
+.div-блокиконтента246810:hover {
+  height: auto !important;
+  width: 500px !important;
+  background-color: #ffffff !important;
+  float: right !important;
+  margin-bottom: 45px !important;
+  border: .75px solid #dadada !important;
+  border-radius: 20px !important;
+  box-shadow: 0px 15px 35px 1.95px rgba(0,0,0,.31) !important;
+}
+
+.div-блокиконтентаглавный {
+  height: auto !important;
+  width: 1024px !important;
+  background-color: #ffffff !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-bottom: 45px !important;
+  float: left !important;
+  border: .75px solid #dadada !important;
+  border-radius: 20px !important;
+  box-shadow: 0px 15px 35px 1.95px rgba(0,0,0,.13) !important;
+  transition: 0.3s linear !important;
+}
+.div-блокиконтентаглавный:hover {
+  height: auto !important;
+  width: 1024px !important;
+  background-color: #ffffff !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-bottom: 45px !important;
+  float: left !important;
+  border: .75px solid #dadada !important;
+  border-radius: 20px !important;
+  box-shadow: 0px 15px 35px 1.95px rgba(0,0,0,.31) !important;
+}
+
+.div-контент13579 {
+  height: auto !important;
+  width: 98% !important;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+.div-контент246810 {
+  height: auto !important;
+  width: 98% !important;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+.div-контентглавный {
+  height: auto !important;
+  width: 98% !important;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5px;
+  border-radius: 20px;
+  padding: 0px;
+}
+
+.div-фотофон {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  min-height: 160px;
+  padding: 0px;
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
+  float: none;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+.img-фото {
+  display: block;
+  border-radius: 4px;
+  width: 100%;
+  height: auto;
+  padding: 0px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  float: inherit;
+  box-shadow: 0px 0px 0px 0px rgba(0,0,0,.0);
+}
+
+.img-фото:hover {
+  display: block;
+  border-radius: 4px;
+  width: 100%;
+  height: auto;
+  padding: 0px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  float: inherit;
+  box-shadow: 0px 0px 0px 0px rgba(0,0,0,.0);
+}
+
+.div-фотофонглавный {
+  display: block !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  margin-top: 10px;
+  margin-right: auto !important;
+  border-radius: 20px !important;
+  transition: 0.11s linear;
+}
+
+.div-фотофонглавный:hover {
+  display: block !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  margin-top: 10px;
+  margin-right: auto !important;
+  border-radius: 20px !important;
+  transition: 0.11s linear;
+}
+
+.img-фотоглавный {
+  display: block !important;
+  border-radius: 20px !important;
+  width: 100% !important;
+  height: auto !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  float: none !important;
+  transition: 0.11s linear;
+}
+
+.img-фотоглавный:hover {
+  display: block !important;
+  border-radius: 20px !important;
+  width: 100% !important;
+  height: auto !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  float: inherit !important;
+  transition: 0.11s linear;
+}
+
+.div-послновос {
+  font-family: 'Roboto', sans-serif;
+  font: 34px Roboto;
+  font-weight: black;
+  text-align: left !important;
+  min-width: 100% !important;
+  color: #232323 !important;
+  margin-top: 115px !important;
+  line-height: 75.55px;
+}
+
+.div-послновосфон {
+  width: 760px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hr-чертапослновос {
+  background-color: #dedede;
+  width: 874px;
+  height: 1px;
+  display: block;
+  margin-top: -13px;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+}
+
+.a-ссылкачитать {
+  font-family: 'Roboto', sans-serif;
+  color: #3374f5;
+  text-decoration: none;
+  background: #ffffff;
+  padding: 4px;
+  border: 4px solid #4374d5;
+  border-radius: 10px;
+  transition: 0.11s linear;
+  box-shadow: 0px .3px .75px 1px rgba(0,0,0,.20);
+}
+.a-ссылкачитать:hover {
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+  text-decoration: none;
+  background: #3374f5;
+  padding: 7px;
+  border: 4px solid #4374d5;
+  border-radius: 11px;
+  transition: 0.11s linear;
+  box-shadow: 0px .3px 4px 2.5px rgba(0,0,0,.20);
+}
+.a-ссылкачитать:active {
+  font-family: 'Roboto', sans-serif;
+  color: #f5f5f5;
+  text-decoration: none;
+  background: #8fb1f5;
+  padding: 4px;
+  border: 4px solid #83a9f5;
+  border-radius: 10px;
+  transition: 0.11s linear;
+  box-shadow: 0px .3px .75px 1px rgba(0,0,0,.20);
+}
+
+.div-подвал {
+  height: 75px;
+  width: auto;
+  min-width: 1024px;
+  background-color: #f5f5f5;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: inset 0px 2px 2.5px 0px rgba(0,0,0,.040);
+  display: flex;
+}
+
+.h3-заголовокновости {
+  font-family: 'Roboto', sans-serif;
+  font: 28px Roboto;
+  font-weight: bold;
+  text-align: center;
+  color: #292929;
+  margin-top: 0px;
+  margin-bottom: 0;
+  line-height: 36.96px;
+}
+
+.p-описанновости {
+  font-family: 'Roboto', sans-serif;
+  font: 20px Roboto;
+  font-weight: 500;
+  display: block;
+  text-align: left;
+  overflow: hidden;
+  color: #494949;
+  margin-top: 0px;
+  margin-left: 5px;
+  line-height: 40.04px;
+}
+
+.h3-заголовокновостиглавный {
+  font-family: 'Roboto', sans-serif;
+  font: 38px Roboto !important;
+  font-weight: bold !important;
+  text-align: left !important;
+  color: #ffffff !important;
+  margin-top: 0px !important;
+  margin-bottom: 20px !important;
+  line-height: 50.16px !important;
+  padding: 0px !important;
+  text-shadow: 0px 0px 75px rgba(0,0,0,.49), 0px 2px 90px rgba(0,0,0,.79), 0px 1.25px 1.25px rgba(0,0,0,.45) !important;
+}
+
+.p-описанновостиглавный {
+  font-family: 'Roboto', sans-serif;
+  font: 18px Roboto;
+  font-weight: 500;
+  display: block;
+  text-align: left !important;
+  color: #ffffff !important;
+  margin-top: -15px !important;
+  margin-bottom: 18.3px !important;
+  margin-left: 1.6px !important;
+  line-height: 32.76px !important;
+  text-shadow: 0px 0px 75px rgba(0,0,0,.49), 0px 2px 90px rgba(0,0,0,.79), 0px 1.25px 1.25px rgba(0,0,0,.45) !important;
+}
+
+.div-описанновостифон {
+  display: block;
+  height: auto;
+  width: 460px;
+  padding: 15px;
+  margin-top: -10px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+.div-заголовокновостифон {
+  display: block;
+  height: auto;
+  width: 460px;
+  padding: 15px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ffffff;
+}
+
+.div-заголовокновостифонглавный {
+  width: 700px;
+  height: 94px;
+  background-color: #ffffff;
+  margin-top: -265px;
+  margin-bottom: 35px;
+  margin-left: 30px;
+}
+
+.div-описанновостифонглавный {
+  width: 750px;
+  height: auto;
+  max-height: 149.3px;
+  background-color: #ffffff;
+  margin-top: -10px;
+  margin-bottom: 45px;
+  margin-left: 15px;
+  padding: 15px;
+}
+
+.font-читать {
+  font-family: 'Roboto', sans-serif;
+  font: 19.5px Roboto;
+  font-weight: 800;
+  color: #4a84f6;
+}
+
+.div-читать {
+  margin-top: 3.3px;
+  margin-right: -7.5px;
+  float: right;
+}
+
+.font-датановости {
+  font-family: 'Roboto', sans-serif;
+  font: 14px Roboto;
+  font-weight: 500;
+  color: #999999;
+  padding: 0px;
+}
+
+.div-датановости {
+  margin-top: 10px;
+  float: left;
+  margin-left: -6px;
+}
+
+.div-нижчертаблока {
+  width: 100%;
+  height: 6.4px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -13px;
+  margin-bottom: -3.85px;
+  padding: 13px;
+}
+
+.div-нижчертаблокаглавный {
+  width: 100% !important;
+  height: 20px !important;
+  margin-right: auto !important;
+  margin-top: -51.6px !important;
+  padding: 12.1px;
+  float: left;
+}
+
+.a-ссылкаменютекстановостей {
+  font-family: 'Roboto', sans-serif;
+  color: #dcdcdc;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.a-ссылкаменютекстановостей:hover {
+  font-family: 'Roboto', sans-serif;
+  color: #fbfbfb;
+  text-decoration: none;
+}
+.a-ссылкаменютекстановостей:active {
+  font-family: 'Roboto', sans-serif;
+  color: #808080;
+  text-decoration: none;
+}
+
+.a-ссылкаменютекстастатей {
+  font-family: 'Roboto', sans-serif;
+  color: #dcdcdc;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.a-ссылкаменютекстастатей:hover {
+  font-family: 'Roboto', sans-serif;
+  color: #fbfbfb;
+  text-decoration: none;
+}
+.a-ссылкаменютекстастатей:active {
+  font-family: 'Roboto', sans-serif;
+  color: #808080;
+  text-decoration: none;
+}
+
+.a-ссылкаменютекстаглавной {
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.a-ссылкаменютекстаглавной:hover {
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+  text-decoration: none;
+}
+.a-ссылкаменютекстаглавной:active {
+  font-family: 'Roboto', sans-serif;
+  color: #808080;
+  text-decoration: none;
+}
+
+  .hamburger-menu {
+    display: none;
+  }
+
+}
+
+
+
+/* ..................................................
+    MEDIA
+    Телефон 375-768
+.................................................. */
+
+@media (max-width: 767px) {
+
+  .body-общоснова {
+    width: 100%;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f8f8f8;
+  }
+
+  .div-меню {
+    background-color: rgba(8,8,8,.975);
+    width: 100%;
+    height: 50px;
+    margin-top: -95px;
+    position: fixed;
+    backdrop-filter: blur(35px);
+    border-bottom: 1px solid rgba(65,65,65,.40);
+  }
+
+  .div-картинкаменю {
+    position: absolute;
+    margin-top: -2px;
+    min-width: 35.5px;
+    margin-left: -85.1px;
+    border: 1.6px solid rgba(0,0,0,0);
+    border-radius: 3px;
+    float: left;
+  }
+
+  #картинкаменю {
+    width: 74.3%;
+  }
+
+  .hamburger-menu {
+    display: block;
+    float: right;
+    margin-right: 22.5px;
+    margin-top: 4.2px;
+  }
+
+  /* скрываем чекбокс */
+  #menu__toggle {
+    opacity: 0;
+    float: right;
+  }
+  /* стилизуем кнопку */
+  .menu__btn {
+    width: 22px;
+    height: 0px;
+    margin-top: inherit;
+    float: right;
+    display: flex; /* используем flex для центрирования содержимого */
+    align-items: center;  /* центрируем содержимое кнопки */
+    position: fixed;
+    cursor: pointer;
+    z-index: 1;
+  }
+  /* добавляем "гамбургер" */
+  .menu__btn > span,
+  .menu__btn > span::before,
+  .menu__btn > span::after {
+    display: block;
+    float: right;
+    position: absolute;
+    width: 100%;
+    height: 1.2px;
+    background-color: #717171;
+  }
+  .menu__btn > span::before {
+    content: '';
+    float: right;
+    top: -8px;
+  }
+  .menu__btn > span::after {
+    content: '';
+    top: 8px;
+    float: right;
+  }
+
+  /* контейнер меню */
+.menu__box {
+  display: block;
+  position: fixed;
+  visibility: hidden;
+  top: 49px;
+  left: 100%;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 50px 0;
+  list-style: none;
+  text-align: center;
+  background-color: rgba(8,8,8,.97);
+  backdrop-filter: blur(35px);
+  border-top: 1.2px solid rgba(105,105,105,.45);
+  border-bottom: 1.5px solid rgba(105,105,105,.90);
+}
+
+/* элементы меню */
+.menu__item {
+  font-family: 'Roboto', sans-serif;
+  font-size: 26px;
+  display: block;
+  padding: 16px 24px;
+  color: #fcfcfc;
+  font-family: 'Roboto', bold;
+  text-decoration: none;
+}
+.menu__item:hover {
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+  height: auto;
+  background-color: rgba(25,25,25,.75);
+  border: 0.020px solid rgba(95,95,95,.15);
+}
+
+#menu__toggle:checked ~ .menu__btn > span {
+  transform: rotate(45deg);
+}
+#menu__toggle:checked ~ .menu__btn > span::before {
+  top: 0;
+  transform: rotate(0);
+}
+#menu__toggle:checked ~ .menu__btn > span::after {
+  top: 0;
+  transform: rotate(90deg);
+}
+#menu__toggle:checked ~ .menu__box {
+  visibility: visible;
+  left: 0;
+}
+
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+  transition-duration: .25s;
+}
+.menu__box {
+  transition-duration: .25s;
+}
+.menu__item {
+  transition-duration: .25s;
+}
+
+
+  .div-общфон {
+    height: auto;
+    width: 100%;
+    background-color: #fafafa;
+    margin-left: auto;
+    margin-right: auto;
+    position: static;
+    margin-top: 61.4px;
+    margin-bottom: -25px;
+    box-sizing: border-box;
+  }
+
+  #div-блокиконтентател {
+    height: auto;
+    width: 100%;
+    background-color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    margin-top: 0px;
+    border-top: .75px solid #dadada;
+    border-bottom: .75px solid #dadada;
+    border-left: 0px solid #dadada;
+    border-right: 0px solid #dadada;
+    border-radius: 0px;
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0), 0px 0px 0px 0px rgba(0,0,0,0) !important;
+    box-sizing: border-box;
+    float: none;
+  }
+
+  .div-блокиконтентаглавный {
+    height: 380px;
+    width: 1064.8px;
+    background-color: #ffffff;
+    margin-left: 132.6px;
+    float: left;
+    margin-top: 40px;
+    border: 0.75px solid #ececec;
+    border-radius: 10px;
+    box-shadow: 0px 0.75px 0.75px 1.75px rgba(0,0,0,.025);
+  }
+
+  .div-блокиконтента13579 {
+    height: 380px;
+    width: 1064.8px;
+    background-color: #ffffff;
+    margin-left: 132.6px;
+    float: left;
+    margin-top: 40px;
+    border: 0.75px solid #ececec;
+    border-radius: 10px;
+    box-shadow: 0px 0.75px 0.75px 1.75px rgba(0,0,0,.025);
+  }
+
+  .div-блокиконтента246810 {
+    height: 380px;
+    width: 1064.8px;
+    background-color: #ffffff;
+    margin-left: 132.6px;
+    float: left;
+    margin-top: 40px;
+    border: 0.75px solid #ececec;
+    border-radius: 10px;
+    box-shadow: 0px 0.75px 0.75px 1.75px rgba(0,0,0,.025);
+  }
+
+  .div-контентглавный {
+    height: 340px;
+    width: 1024.8px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-right: 580px;
+    border-radius: 10px;
+  }
+
+  .div-контент13579 {
+    height: 340px;
+    width: 1024.8px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-right: 580px;
+    border-radius: 10px;
+  }
+
+  .div-контент246810 {
+    height: 340px;
+    width: 1024.8px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-right: 580px;
+    border-radius: 10px;
+  }
+
+  #div-контенттел {
+    background-color: #ffffff;
+    height: auto;
+    width: 98%;
+    max-width: 455px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2px;
+    margin-bottom: 25px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 5px;
+  }
+
+  #img-фототел {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 0px;
+    padding: 0px;
+    max-width: 100%;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+  }
+
+  #img-фототел:hover {
+    display: block;
+    border-radius: 0px;
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    float: none;
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,.0);
+  }
+
+  #img-фототел:active {
+    display: block;
+    border-radius: 0px;
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    float: inherit;
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,.0);
+  }
+
+   #фотофонтел {
+     display: block;
+     width: 100%;
+     height: auto;
+     max-height: 280px;
+     min-height: 140px;
+     padding: 0px;
+     border-radius: 13px !important;
+     margin-top: 2px;
+     margin-left: auto;
+     margin-right: auto;
+     margin-bottom: 0px;
+     float: none;
+     background-color: #ffffff;
+     overflow: hidden;
+   }
+
+  .div-подвал {
+    height: 75px;
+    width: auto;
+    min-width: 100%;
+    background-color: #f5f5f5;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: inset 0px 2px 2.5px 0px rgba(0,0,0,.040);
+    display: flex;
+  }
+
+  .div-послновос {
+    font-family: 'Roboto', sans-serif;
+    font: 20px Roboto;
+    font-weight: black;
+    text-align: left;
+    min-width: 100%;
+    color: #232323;
+    margin-top: 95px;
+    line-height: 46px;
+  }
+
+  .div-послновосфон {
+    width: 320px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hr-чертапослновос {
+    background-color: #dedede;
+    width: 94%;
+    height: 1px;
+    display: block;
+    float: right;
+    margin-top: -5px;
+    border: none;
+  }
+
+  .font-читать {
+    font-family: 'Roboto', sans-serif;
+    font: 19.5px Roboto;
+    font-weight: 800;
+    color: #4a84f6;
+  }
+
+  .div-читать {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 3.3px;
+    float: right;
+  }
+
+  #a-ссылкачитатьтел {
+    font-family: 'Roboto', sans-serif;
+    color: #3374f5;
+    text-decoration: none;
+    background: #ffffff;
+    padding: 3.3px;
+    border: 2.5px solid #4374d5;
+    border-radius: 7.5px;
+    box-shadow: 0px .3px .75px 1px rgba(0,0,0,.0);
+  }
+
+  #a-ссылкачитатьтел:active {
+    font-family: 'Roboto', sans-serif;
+    color: #f5f5f5;
+    text-decoration: none;
+    background: #8fb1f5;
+    padding: 3.3px;
+    border: 2.15px solid #83a9f5;
+    border-radius: 7.5px;
+    transition: 0.11s linear;
+    box-shadow: 0px .3px .75px 1px rgba(0,0,0,.0);
+  }
+
+  .font-датановости {
+    font-family: 'Roboto', sans-serif;
+    font: 12px Roboto;
+    font-weight: 500;
+    color: #999999;
+    padding: 0px;
+  }
+
+  .div-датановости {
+    margin-top: 10px;
+    float: left;
+    margin-left: -6px;
+  }
+
+  #нижчертаблокател {
+    width: 100%;
+    height: 6.4px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -13px;
+    margin-bottom: 0px;
+    padding: 12.1px;
+  }
+
+  #заголовокновостител {
+    font-family: 'Roboto', sans-serif;
+    font: 24px Roboto;
+    font-weight: bold;
+    text-align: center;
+    color: #292929;
+    margin-top: 8.7px;
+    line-height: 31.92px;
+    padding: 0px;
+  }
+
+  #описанновостител {
+    font-family: 'Roboto', sans-serif;
+    font: 18px Roboto;
+    font-weight: 500;
+    display: block;
+    text-align: left;
+    overflow: hidden;
+    color: #494949;
+    margin-top: 3.3px;
+    margin-left: auto;
+    line-height: 32.76px;
+  }
+
+  .div-заголовокновостифонглавный {
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .div-заголовокновостифон {
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .div-описанновостифонглавный {
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    margin-top: -25px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+  }
+
+  .div-описанновостифон {
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    margin-top: -25px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+  }
+
+  .a-ссылкачитать {
+    font-family: 'Roboto', sans-serif;
+    color: #3374f5;
+    text-decoration: none;
+    background: #ffffff;
+    padding: 1px;
+    border: .5px solid #4374d5;
+    border-radius: 2px;
+    box-shadow: 0px .3px .75px 1px rgba(0,0,0,.20);
+  }
+  .a-ссылкачитать:hover {
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+    background: #3374f5;
+    padding: 1.5px;
+    border: .5px solid #4374d5;
+    border-radius: 3px;
+    transition: 0.11s linear;
+    box-shadow: 0px .3px 4px 2.5px rgba(0,0,0,.20);
+  }
+  .a-ссылкачитать:active {
+    font-family: 'Roboto', sans-serif;
+    color: #f5f5f5;
+    text-decoration: none;
+    background: #8fb1f5;
+    padding: 1px;
+    border: .5px solid #83a9f5;
+    border-radius: 6px;
+    transition: 0.11s linear;
+    box-shadow: 0px .3px .75px 1px rgba(0,0,0,.20);
+  }
+
+  .ul-текстменю {
+    font-family: 'Roboto', sans-serif;
+    font: 0px Roboto light;
+    text-align: center;
+    min-width: 403.1px;
+    margin-left: 43.6px;
+    margin-top: 16.1px;
+  }
+
+  .li-текстменю {
+    font-family: 'Roboto', sans-serif;
+    display: inline;
+    margin-right: 16.1px;
+    margin-left: 25px;
+    color: #232323;
+    padding: 0px;
+    text-align: center;
+  }
+
+  .a-ссылкаменютекстановостей {
+    display: none;
+  }
+
+  .a-ссылкаменютекстановостей:hover {
+    display: none;
+  }
+  .a-ссылкаменютекстановостей:active {
+    display: none;
+  }
+
+  .a-ссылкаменютекстастатей {
+    display: none;
+  }
+
+  .a-ссылкаменютекстастатей:hover {
+    display: none;
+  }
+  .a-ссылкаменютекстастатей:active {
+    display: none;
+  }
+
+  .a-ссылкаменютекстаглавной {
+    display: none;
+  }
+
+  .a-ссылкаменютекстаглавной:hover {
+    display: none;
+  }
+  .a-ссылкаменютекстаглавной:active {
+    display: none;
+  }
+
+
+}
+
+
+
+/* ..................................................
+    MEDIA
+    Телефон 320-375
+.................................................. */
+
+@media (min-width: 240px) and (max-width: 347px) {
+
+
+  .div-меню {
+    background-color: rgba(8,8,8,.975);
+    width: 100%;
+    height: 50px;
+    margin-top: -85px;
+    position: fixed;
+    backdrop-filter: blur(35px);
+    border-bottom: 1px solid rgba(65,65,65,.40);
+  }
+
+  #div-блокиконтентател {
+    height: auto;
+    width: 100%;
+    background-color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 21px;
+    margin-top: 0px;
+    border-top: .75px solid #dadada;
+    border-bottom: .75px solid #dadada;
+    border-left: 0px solid #dadada;
+    border-right: 0px solid #dadada;
+    border-radius: 0px;
+    box-shadow: 0px .25px .5px .25px rgba(0,0,0,.065) !important;
+    box-sizing: border-box;
+    transition: 0.11s linear;
+    float: none;
+  }
+
+  #div-контенттел {
+    background-color: #ffffff;
+    height: auto;
+    width: 98%;
+    max-width: 388.26px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2px;
+    margin-bottom: 25px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 5px;
+  }
+
+  .div-блокиконтентаглавный {
+    height: 380px;
+    width: 1064.8px;
+    background-color: #ffffff;
+    margin-left: 132.6px;
+    float: left;
+    margin-top: 40px;
+    border: 0.75px solid #ececec;
+    border-radius: 10px;
+    box-shadow: 0px 0.75px 0.75px 1.75px rgba(0,0,0,.025);
+  }
+
+  .div-блокиконтента13579 {
+    height: 380px;
+    width: 1064.8px;
+    background-color: #ffffff;
+    margin-left: 132.6px;
+    float: left;
+    margin-top: 40px;
+    border: 0.75px solid #ececec;
+    border-radius: 10px;
+    box-shadow: 0px 0.75px 0.75px 1.75px rgba(0,0,0,.025);
+  }
+
+  .div-блокиконтента246810 {
+    height: 380px;
+    width: 1064.8px;
+    background-color: #ffffff;
+    margin-left: 132.6px;
+    float: left;
+    margin-top: 40px;
+    border: 0.75px solid #ececec;
+    border-radius: 10px;
+    box-shadow: 0px 0.75px 0.75px 1.75px rgba(0,0,0,.025);
+  }
+
+  .div-контентглавный {
+    height: 340px;
+    width: 1024.8px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-right: 580px;
+    border-radius: 10px;
+  }
+
+  .div-контент13579 {
+    height: 340px;
+    width: 1024.8px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-right: 580px;
+    border-radius: 10px;
+  }
+
+  .div-контент246810 {
+    height: 340px;
+    width: 1024.8px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-right: 580px;
+    border-radius: 10px;
+  }
+
+  .div-общфон {
+    height: auto;
+    width: 100%;
+    background-color: #fafafa;
+    margin-left: auto;
+    margin-right: auto;
+    position: static;
+    margin-top: 51.4px;
+    margin-bottom: -21px;
+    box-sizing: border-box;
+  }
+
+  .div-послновос {
+    font-family: 'Roboto', sans-serif;
+    font: 18px Roboto;
+    font-weight: black;
+    min-width: 100%;
+    color: #232323;
+    margin-top: 85px;
+    line-height: 41.5px;
+  }
+
+  .div-послновосфон {
+    width: 280px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hr-чертапослновос {
+    background-color: #dedede;
+    width: 94%;
+    height: 1px;
+    display: block;
+    float: right;
+    margin-top: -5px;
+    border: none;
+  }
+
+  #img-фототел {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 0px;
+    padding: 0px;
+    max-width: 100%;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+  }
+
+  #img-фототел:hover {
+    border-radius: 0px;
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    max-width: 100%;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,.0);
+  }
+
+   #фотофонтел {
+     display: block;
+     width: 100%;
+     height: auto;
+     max-height: 240px;
+     min-height: 100px;
+     padding: 0px;
+     border-radius: 13px;
+     margin-top: 2px;
+     margin-left: auto;
+     margin-right: auto;
+     margin-bottom: 0px;
+     float: none;
+     background-color: #ffffff;
+     overflow: hidden;
+   }
+
+   #нижчертаблокател {
+     width: 100%;
+     height: 6.4px;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: -7px;
+     margin-bottom: -4px;
+     padding: 12.1px;
+   }
+
+   #заголовокновостител {
+     font-family: 'Roboto', sans-serif;
+     font: 22px Roboto;
+     font-weight: bold;
+     text-align: center;
+     color: #292929;
+     margin-top: 8.7px;
+     line-height: 29.04px;
+     padding: 0px;
+   }
+
+   #описанновостител {
+     font-family: 'Roboto', sans-serif;
+     font: 16px Roboto;
+     font-weight: 500;
+     text-align: left;
+     display: block;
+     overflow: hidden;
+     color: #494949;
+     margin-top: 3.3px;
+     margin-bottom: 0;
+     margin-left: auto;
+     line-height: 29.12px;
+   }
+
+   .div-заголовокновостифонглавный {
+     width: 100%;
+     height: auto;
+     background-color: #ffffff;
+     margin-top: 20px;
+     margin-bottom: 0px;
+     margin-left: auto;
+     margin-right: auto;
+   }
+
+   .div-заголовокновостифон {
+     width: 100%;
+     height: auto;
+     background-color: #ffffff;
+     margin-top: 20px;
+     margin-bottom: 0px;
+     margin-left: auto;
+     margin-right: auto;
+   }
+
+   .div-описанновостифонглавный {
+     width: 100%;
+     height: auto;
+     background-color: #ffffff;
+     margin-top: -25px;
+     margin-left: auto;
+     margin-right: auto;
+     padding: 15px;
+   }
+
+   .div-описанновостифон {
+     width: 100%;
+     height: auto;
+     background-color: #ffffff;
+     margin-top: -25px;
+     margin-left: auto;
+     margin-right: auto;
+     padding: 15px;
+   }
+
+   .div-читать {
+     margin-top: 3.3px;
+     float: right;
+   }
+
+   .font-читать {
+     font-family: 'Roboto', sans-serif;
+     font: 17.5px Roboto;
+     font-weight: 800;
+     color: #4a84f6;
+   }
+
+   #a-ссылкачитатьтел {
+     font-family: 'Roboto';
+     color: #3374f5;
+     text-decoration: none;
+     background: #ffffff;
+     padding: 3px;
+     border: 2.5px solid #4374d5;
+     border-radius: 7.35px;
+     box-shadow: 0px .3px .75px 1px rgba(0,0,0,.0);
+   }
+
+   #a-ссылкачитатьтел:active {
+     font-family: 'Roboto';
+     color: #f5f5f5;
+     text-decoration: none;
+     background: #8fb1f5;
+     padding: 3px;
+     border: 2.05px solid #83a9f5;
+     border-radius: 6.5px;
+     transition: 0.11s linear;
+     box-shadow: 0px .3px .75px 1px rgba(0,0,0,.0);
+   }
+
+   .font-датановости {
+     font-family: 'Roboto', sans-serif;
+     font: 10px Roboto;
+     font-weight: 500;
+     color: #999999;
+     padding: 0px;
+   }
+
+   .div-датановости {
+     margin-top: 10px;
+     float: left;
+     margin-left: -6px;
+   }
+
+  .div-подвал {
+    height: 75px;
+    width: auto;
+    min-width: 320px;
+    background-color: #f5f5f5;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: inset 0px 2px 2.5px 0px rgba(0,0,0,.040);
+    display: flex;
+  }
+
+}
+
+
+
+
+
+
+/* ..................................................
+    MEDIA
+    Планшет 768-1024
+.................................................. */
+
+
+@media (min-width: 767px) and (max-width: 1023px) {
+
+  .body-общоснова {
+    width: 100%;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f8f8f8;
+  }
+
+  .div-меню {
+    background-color: rgba(8,8,8,.975);
+    width: 100%;
+    height: 50px;
+    margin-top: -115px;
+    position: fixed;
+    backdrop-filter: blur(35px);
+    border-bottom: 1px solid rgba(65,65,65,.40);
+  }
+
+  .div-картинкаменю {
+    position: absolute;
+    margin-top: -2px;
+    min-width: 35.5px;
+    margin-left: -85.1px;
+    border: 1.6px solid rgba(0,0,0,0);
+    border-radius: 3px;
+    float: left;
+  }
+
+  #картинкаменю {
+    width: 74.3%;
+  }
+
+  .hamburger-menu {
+    display: block;
+    float: right;
+    margin-right: 22.5px;
+    margin-top: 4.2px;
+  }
+
+  /* скрываем чекбокс */
+  #menu__toggle {
+    opacity: 0;
+    float: right;
+  }
+  /* стилизуем кнопку */
+  .menu__btn {
+    width: 22px;
+    height: 0px;
+    margin-top: inherit;
+    float: right;
+    display: flex; /* используем flex для центрирования содержимого */
+    align-items: center;  /* центрируем содержимое кнопки */
+    position: fixed;
+    cursor: pointer;
+    z-index: 1;
+  }
+  /* добавляем "гамбургер" */
+  .menu__btn > span,
+  .menu__btn > span::before,
+  .menu__btn > span::after {
+    display: block;
+    float: right;
+    position: absolute;
+    width: 100%;
+    height: 1.2px;
+    background-color: #717171;
+  }
+  .menu__btn > span::before {
+    content: '';
+    float: right;
+    top: -8px;
+  }
+  .menu__btn > span::after {
+    content: '';
+    top: 8px;
+    float: right;
+  }
+
+  /* контейнер меню */
+.menu__box {
+  display: block;
+  position: fixed;
+  visibility: hidden;
+  top: 49px;
+  left: 100%;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 50px 0;
+  list-style: none;
+  text-align: center;
+  background-color: rgba(8,8,8,.97);
+  backdrop-filter: blur(35px);
+  border-top: 1.2px solid rgba(105,105,105,.45);
+  border-bottom: 1.5px solid rgba(105,105,105,.90);
+}
+
+/* элементы меню */
+.menu__item {
+  font-family: 'Roboto', sans-serif;
+  font-size: 26px;
+  padding: 16px 24px;
+  display: block;
+  color: #fcfcfc;
+  font-family: 'Roboto', bold;
+  text-decoration: none;
+}
+.menu__item:hover {
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+  height: auto;
+  background-color: rgba(25,25,25,.75);
+  border: 0.020px solid rgba(95,95,95,.15);
+}
+
+#menu__toggle:checked ~ .menu__btn > span {
+  transform: rotate(45deg);
+}
+#menu__toggle:checked ~ .menu__btn > span::before {
+  top: 0;
+  transform: rotate(0);
+}
+#menu__toggle:checked ~ .menu__btn > span::after {
+  top: 0;
+  transform: rotate(90deg);
+}
+#menu__toggle:checked ~ .menu__box {
+  visibility: visible;
+  left: 0;
+}
+
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+  transition-duration: .25s;
+}
+.menu__box {
+  transition-duration: .25s;
+}
+.menu__item {
+  transition-duration: .25s;
+}
+
+
+  .div-общфон {
+    height: auto;
+    width: 768px;
+    background-color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    position: static;
+    margin-top: 71.4px;
+    box-sizing: border-box;
+  }
+
+  #div-блокиконтентател {
+    width: 100%;
+    height: auto;
+    max-width: 768px;
+    background-color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 22.7px;
+    margin-top: 0px;
+    border: .75px solid #dadada;;
+    border-radius: 20px;
+    box-shadow: 0px 15px 35px 1.95px rgba(0,0,0,.13) !important;
+    box-sizing: border-box;
+    float: left;
+  }
+
+  .div-блокиконтентапланшетверсияллишний {
+    display: none;
+  }
+
+  .div-блокиконтентаглавный {
+    width: 768px !important;
+    height: auto !important;
+    background-color: #ffffff !important;
+    margin-left: auto !important;
+    float: left !important;
+    margin-top: 0px !important;
+    margin-bottom: 40px !important;
+    border: .75px solid #dadada !important;
+    border-radius: 20px !important;
+    box-shadow: 0px 15px 35px 1.95px rgba(0,0,0,.13) !important;
+  }
+
+  .div-блокиконтента13579 {
+    width: 372.5px !important;
+    height: auto !important;
+    background-color: #ffffff;
+    margin-left: auto !important;
+    float: left !important;
+    margin-top: 40px;
+    margin-bottom: 40px !important;
+    border: 0.75px solid #ececec;
+    border-radius: 10px;
+    box-shadow: 0px 0.75px 0.75px 1.75px rgba(0,0,0,.025);
+  }
+
+  .div-блокиконтента246810 {
+    width: 372.5px !important;
+    height: auto !important;
+    background-color: #ffffff;
+    margin-right: auto !important;
+    float: right !important;
+    margin-top: 40px;
+    margin-bottom: 40px !important;
+    border: 0.75px solid #ececec;
+    border-radius: 10px;
+    box-shadow: 0px 0.75px 0.75px 1.75px rgba(0,0,0,.025);
+  }
+
+  .div-контентглавный {
+    height: auto !important;
+    width: auto !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-right: 580px !important;
+    border-radius: 20px !important;
+    padding: 15px;
+  }
+
+  .div-контент13579 {
+    height: auto !important;
+    width: 1024.8px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 22.5px !important;
+    margin-left: auto;
+    border-radius: 10px;
+  }
+
+  .div-контент246810 {
+    height: auto !important;
+    width: 1024.8px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 22.5px !important;
+    margin-right: auto;
+    border-radius: 10px;
+  }
+
+  #div-контенттел {
+    display: block;
+    background-color: #ffffff;
+    height: auto !important;
+    width: 98%;
+    max-width: none;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 2px;
+    margin-bottom: 11px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 5px;
+  }
+
+  #img-фототел {
+    display: block;
+    border-radius: 4px;
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    float: inherit;
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,.0);
+  }
+
+  #img-фототел:hover {
+    display: block;
+    border-radius: 4px;
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    float: inherit;
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,.0);
+  }
+
+   #фотофонтел {
+     display: block;
+     width: 100%;
+     height: auto;
+     max-height: 280px;
+     min-height: 140px;
+     padding: 0px;
+     border-radius: 20px;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 2px;
+     margin-bottom: 0px;
+     float: none;
+     background-color: #ffffff;
+     overflow: hidden;
+   }
+
+   .div-фотофонглавный {
+     display: block !important;
+     width: 100% !important;
+     max-width: 100% !important;
+     max-height: none !important;
+     min-height: none !important;
+     height: 480px !important;
+     padding: 0 !important;
+     overflow: hidden !important;
+     margin-top: -2px !important;
+     margin-right: auto !important;
+     border-radius: 20px !important;
+   }
+
+   .img-фотоглавный {
+     display: block !important;
+     border-radius: 20px !important;
+     width: 100% !important;
+     height: auto !important;
+     padding: 0 !important;
+     overflow: hidden !important;
+     margin-left: auto !important;
+     margin-right: auto !important;
+     float: none !important;
+   }
+
+   .div-послновос {
+     font-family: 'Roboto', sans-serif;
+     font: 28px Roboto;
+     font-weight: black;
+     text-align: left !important;
+     min-width: 100% !important;
+     color: #232323 !important;
+     margin-top: 115px !important;
+     line-height: 62.22px;
+   }
+
+   .div-послновосфон {
+     width: 500px;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+   }
+
+   .hr-чертапослновос {
+     background-color: #dedede;
+     width: 618px;
+     height: 1px;
+     display: block;
+     float:none;
+     margin-top: -13px;
+     margin-left: auto;
+     margin-right: auto;
+     border: none;
+     box-sizing: border-box;
+   }
+
+   .div-нижчертаблокаглавный {
+     width: 100% !important;
+     height: 20px !important;
+     margin-right: auto !important;
+     margin-top: -33.75px !important;
+     float: left;
+   }
+
+  .div-подвал {
+    height: 75px;
+    width: auto;
+    min-width: 100%;
+    background-color: #f5f5f5;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: inset 0px 2px 2.5px 0px rgba(0,0,0,.040);
+    display: flex;
+  }
+
+  .font-читать {
+    font-family: 'Roboto', sans-serif;
+    font: 19.5px Roboto;
+    font-weight: 800;
+    color: #4a84f6;
+  }
+
+  .div-читать {
+    margin-top: 3.3px;
+    margin-right: -7.5px;
+    float: right;
+  }
+
+  #a-ссылкачитатьтел {
+    font-family: 'Roboto', sans-serif;
+    color: #3374f5;
+    text-decoration: none;
+    background: #ffffff;
+    padding: 3.3px;
+    border: 2.5px solid #4374d5;
+    border-radius: 7.5px;
+    box-shadow: 0px .3px .75px 1px rgba(0,0,0,.0);
+  }
+
+  #a-ссылкачитатьтел:active {
+    font-family: 'Roboto', sans-serif;
+    color: #f5f5f5;
+    text-decoration: none;
+    background: #8fb1f5;
+    padding: 3.3px;
+    border: 2.15px solid #83a9f5;
+    border-radius: 7.5px;
+    transition: 0.11s linear;
+    box-shadow: 0px .3px .75px 1px rgba(0,0,0,.0);
+  }
+
+  .font-датановости {
+    font-family: 'Roboto', sans-serif;
+    font: 13px Roboto;
+    font-weight: 500;
+    color: #999999;
+    padding: 0px;
+  }
+
+  .div-датановости {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+    float: left;
+    margin-left: -6px;
+  }
+
+  #нижчертаблокател {
+    width: 100%;
+    height: 6.4px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -13px;
+    margin-bottom: 1px;
+    padding: 12.1px;
+  }
+
+  #заголовокновостител {
+    font-family: 'Roboto', sans-serif;
+    font: 24px Roboto;
+    font-weight: bold;
+    text-align: center;
+    color: #292929;
+    margin-top: 8.7px;
+    line-height: 31.68px;
+    padding: 0px;
+  }
+
+  .h3-заголовокновостиглавный {
+    font-family: 'Roboto', sans-serif !important;
+    font: 36px Roboto !important;
+    font-weight: bold !important;
+    text-align: left !important;
+    color: #ffffff !important;
+    margin-top: 0px !important;
+    margin-bottom: 20px !important;
+    line-height: 47.52px !important;
+    padding: 0px !important;
+    text-shadow: 0px 0px 75px rgba(0,0,0,.49), 0px 2px 90px rgba(0,0,0,.79), 0px 1.25px 1.25px rgba(0,0,0,.45) !important;
+  }
+
+  .p-описанновостиглавный {
+    font-family: 'Roboto', sans-serif !important;
+    font: 16px Roboto !important;
+    font-weight: 500 !important;
+    text-align: left !important;
+    display: block;
+    color: #ffffff !important;
+    margin-top: -15px !important;
+    margin-bottom: 18.3px !important;
+    margin-left: 1.6px !important;
+    line-height: 29.12px !important;
+    text-shadow: 0px 0px 75px rgba(0,0,0,.49), 0px 2px 90px rgba(0,0,0,.79), 0px 1.25px 1.25px rgba(0,0,0,.45) !important;
+  }
+
+  #описанновостител {
+    font-family: 'Roboto', sans-serif;
+    font: 18px Roboto;
+    font-weight: 500;
+    text-align: left;
+    display: block;
+    color: #494949;
+    margin-top: 3.3px;
+    margin-left: 1.6px;
+    line-height: 32.76px;
+  }
+
+  .div-заголовокновостифонглавный {
+    width: 650px;
+    height: 94px;
+    background-color: #ffffff;
+    margin-top: -240px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+  }
+
+  .div-заголовокновостифон {
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .div-описанновостифонглавный {
+    width: 700px;
+    height: auto;
+    max-height: 149.3px;
+    background-color: #ffffff;
+    margin-top: -10px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    padding: 15px;
+  }
+
+  .div-описанновостифон {
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    margin-top: -25px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+  }
+
+  .a-ссылкачитать {
+    font-family: 'Roboto', sans-serif;
+    color: #3374f5;
+    text-decoration: none;
+    background: #ffffff;
+    padding: 1px;
+    border: .5px solid #4374d5;
+    border-radius: 2px;
+    box-shadow: 0px .3px .75px 1px rgba(0,0,0,.20);
+  }
+  .a-ссылкачитать:hover {
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+    background: #3374f5;
+    padding: 1.5px;
+    border: .5px solid #4374d5;
+    border-radius: 3px;
+    transition: 0.11s linear;
+    box-shadow: 0px .3px 4px 2.5px rgba(0,0,0,.20);
+  }
+  .a-ссылкачитать:active {
+    font-family: 'Roboto', sans-serif;
+    color: #f5f5f5;
+    text-decoration: none;
+    background: #8fb1f5;
+    padding: 1px;
+    border: .5px solid #83a9f5;
+    border-radius: 6px;
+    transition: 0.11s linear;
+    box-shadow: 0px .3px .75px 1px rgba(0,0,0,.20);
+  }
+
+  .ul-текстменю {
+    font-family: 'Roboto', sans-serif;
+    font: 0px Roboto light;
+    text-align: center;
+    min-width: 403.1px;
+    margin-left: 43.6px;
+    margin-top: 16.1px;
+  }
+
+  .li-текстменю {
+    font-family: 'Roboto', sans-serif;
+    display: inline;
+    margin-right: 16.1px;
+    margin-left: 25px;
+    color: #232323;
+    padding: 0px;
+    text-align: center;
+  }
+
+  .a-ссылкаменютекстановостей {
+    display: none;
+  }
+
+  .a-ссылкаменютекстановостей:hover {
+    display: none;
+  }
+  .a-ссылкаменютекстановостей:active {
+    display: none;
+  }
+
+  .a-ссылкаменютекстастатей {
+    display: none;
+  }
+
+  .a-ссылкаменютекстастатей:hover {
+    display: none;
+  }
+  .a-ссылкаменютекстастатей:active {
+    display: none;
+  }
+
+  .a-ссылкаменютекстаглавной {
+    display: none;
+  }
+
+  .a-ссылкаменютекстаглавной:hover {
+    display: none;
+  }
+  .a-ссылкаменютекстаглавной:active {
+    display: none;
+  }
+
+
+}
